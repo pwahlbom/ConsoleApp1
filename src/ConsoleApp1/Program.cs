@@ -9,6 +9,14 @@ namespace ConsoleApp1
     {
         public static void Main(string[] args)
         {
+            //Console.WriteLine("Hello World!");
+            //var something = Console.ReadLine();
+            //Console.WriteLine(something);
+            //Console.ReadLine();
+
+            var rand = new Random;
+            Console.WriteLine(rand.Next(10));
+            Console.ReadLine();
         }
     }
 }
